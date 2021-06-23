@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BUSINESSme</title>
+    <link href="7.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+  <h1>CONTACT US</h1>
+
+</section class="location">
+
+<iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d45746.43191641396!2d17.658871!3d44.224529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x456f58a99d0a4bb!2sMje%C5%A1ovita%20srednja%20ekonomsko-ugostiteljska%20%C5%A1kola!5e0!3m2!1sbs!2sba!4v1618956811282!5m2!1sbs!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+<div class="row">
+  <div class="contact-col">
+    <div>
+      <i class="fa fa-home"></i></a>
+      <span>
+        <h5>Adresa</h5>
+      <p> Školska br. 11
+          <br>Travnik 72270
+          <br>BiH</p>
+      </span>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i></a>
+      <span>
+        <h5>KONTAKT TELEFON</h5>
+      <p>Telefon: +387 (0)30 511 076 – direktor
+         <br>Telefon: +387(0)30 541 621 – sekretar
+        <br>Telefon: +387(0)30 541 622 – pedagog </p>
+      </span>
+    </div>
+    <div>
+      <i class="fa fa-envelope-o"></i></a>
+      <span>
+        <h5>E-mail</h5>
+      <p>mseus@bih.net.ba</p>
+      </span>
+    </div>
+  </div>
+  <div class="contact-col">
+
+  <form action="form-handler.php" method="post">
+    <input type="Text"name="name" placeholder="Enter your name" required>
+    <input type="E-mail" name="e-mail" placeholder="Enter e-mail address" required>
+    <input type="text" name="subject" placeholder="Enter your subject" required>
+    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="hero-btn red-btn">Send Message</button>
+  </form>
+</div>
+ </div>
+
+</section>
+
+
+
+<section class="footer">
+  <h4>ABOUT US</h4>
+  <p>Možete nas posjetiti na našoj web stranici, facebooku ili instagramu.</p>
+  <div class="icons">
+  <a href="https://www.facebook.com/mseus/"target="_blank" i class="fa fa-facebook"></i></a>
+  <a href="https://www.instagram.com/mseus.travnik/"target="_blank" i class="fa fa-instagram"></i></a>
+  <a href="http://www.mseus.ba/"target="_blank" i class="fa fa-google"></i></a>
+</section>
+</div>
+
+
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+      navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+</script>
+
+  </body>
+</html>
